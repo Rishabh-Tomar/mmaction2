@@ -348,7 +348,7 @@ def main():
     results = []
     for human_detection, prediction in zip(human_detections, predictions):
         results.append(pack_result(human_detection, prediction, new_h, new_w))
-        print(f"\nDetected action: {prediction[0]}  Prediction score:{prediction[1]}")
+        print(f"\nDetected action: {prediction[0][0][0]}  Prediction score:{prediction[0][0][1]}")
 
     
     
