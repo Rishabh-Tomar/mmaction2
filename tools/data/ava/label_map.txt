@@ -12,7 +12,7 @@
 13: swim
 14: walk
 15: answer phone
-17: carry/hold (an object)
+17: opening bonet
 20: climb (e.g., a mountain)
 22: close (e.g., a door, a box)
 24: cut
