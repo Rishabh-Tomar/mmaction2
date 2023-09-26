@@ -349,6 +349,8 @@ def main():
     for human_detection, prediction in zip(human_detections, predictions):
         results.append(pack_result(human_detection, prediction, new_h, new_w))
 
+    print(results)
+    
     def dense_timestamps(timestamps, n):
         """Make it nx frames."""
         old_frame_interval = (timestamps[1] - timestamps[0])
